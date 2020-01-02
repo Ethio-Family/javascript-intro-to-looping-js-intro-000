@@ -5,9 +5,10 @@
 // (Remember flow control with if and else? And how do we interpolate i?) Then return the array.
 var array = [];
 function forLoop(array) {
+
    for (let i = 0; i < 25; i++) {
 
-     if(i=1) {
+     if(i === 1) {
        array.push("I am 1 strange loop.");
      }
      else{
