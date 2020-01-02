@@ -3,15 +3,15 @@
 // But not just any string. If your i value is 1, add the string "I am 1 strange loop.";
 // if your i value is anything else, add the string "I am ${i} strange loops.".
 // (Remember flow control with if and else? And how do we interpolate i?) Then return the array.
-
+var array = [];
 function forLoop(array) {
-  // for (let i = 0; i < 25; i++) {
-  //
-  //   if(i=1) {
-  //     array.push("I am 1 strange loop.");
-  //   }
-  //   else{
-  //     array.push("I am " + i + "strange loops.");
-  //   }
-  // }
+   for (let i = 0; i < 25; i++) {
+
+     if(i=1) {
+       array.push("I am 1 strange loop.");
+     }
+     else{
+       array.push("I am " + i + "strange loops.");
+     }
+   }
 }
