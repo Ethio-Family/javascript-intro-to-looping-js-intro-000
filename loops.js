@@ -5,13 +5,13 @@
 // (Remember flow control with if and else? And how do we interpolate i?) Then return the array.
 
 function forLoop(array) {
-  for (let i = 0; i < 25; i++) {
-
-    if(i=1) {
-      array.push("I am 1 strange loop.");
-    }
-    else{
-      array.push("I am " + i + "strange loops.");
-    }
-  }
+  // for (let i = 0; i < 25; i++) {
+  //
+  //   if(i=1) {
+  //     array.push("I am 1 strange loop.");
+  //   }
+  //   else{
+  //     array.push("I am " + i + "strange loops.");
+  //   }
+  // }
 }
