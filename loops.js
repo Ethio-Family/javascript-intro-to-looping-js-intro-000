@@ -30,7 +30,7 @@ function whileLoop(number) {
   return 'done';
 }
 
-let incrementVariable();
+var incrementVariable();
 function doWhileLoop(number) {
   do {
   console.log("I run once regardless.");
