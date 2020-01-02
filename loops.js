@@ -29,3 +29,10 @@ function whileLoop(number) {
   }
   return 'done';
 }
+
+function doWhileLoop() {
+  do {
+  console.log("I run once regardless.");
+} while (incrementVariable() < number);
+  return number;
+}
