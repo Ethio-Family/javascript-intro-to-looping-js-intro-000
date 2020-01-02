@@ -32,6 +32,8 @@ function whileLoop(number) {
 
 
 function doWhileLoop(number) {
+
+  var i = 0;
   function incrementVariable() {
   i = i + 1;
   return i;
