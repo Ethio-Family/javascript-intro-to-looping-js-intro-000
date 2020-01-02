@@ -30,8 +30,10 @@ function whileLoop(number) {
   return 'done';
 }
 
-//var incrementVariable();
+
 function doWhileLoop(number) {
+
+  var incrementVariable();
   do {
   console.log("I run once regardless.");
 } while (incrementVariable() < number);
